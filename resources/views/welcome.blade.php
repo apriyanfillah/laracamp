@@ -262,7 +262,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="mt-3 btn btn-master btn-primary w-100">
+                                    <a href="{{route('checkout.create', 'gila-belajar')}}" class="mt-3 btn btn-master btn-primary w-100">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -308,7 +308,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="mt-3 btn btn-master btn-secondary w-100">
+                                    <a href="{{route('checkout.create', 'baru-mulai')}}" class="mt-3 btn btn-master btn-secondary w-100">
                                         Start With This Plan
                                     </a>
                                 </p>
